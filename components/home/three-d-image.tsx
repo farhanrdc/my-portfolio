@@ -11,7 +11,7 @@ export function ThreeDCardDemo() {
         
         <CardItem translateZ="100" className="w-full ">
           <Image
-            src="/farhan5.png"
+            src="/saya.png"
             height="1000"
             width="1000"
             className="h-[30rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"
