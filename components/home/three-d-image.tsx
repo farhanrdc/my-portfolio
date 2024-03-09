@@ -18,7 +18,7 @@ export function ThreeDCardDemo() {
             alt="thumbnail"
           />
           {/* <div className="hidden md:flex absolute w-full px-6 right-[20%] "> */}
-                <div className="flex absolute w-full px-6 gap-x-6 justify-center top-[20%]">
+                <div className="hidden md:flex absolute w-full px-6 gap-x-6 justify-center top-[20%]">
                   <h3 className="bg-white font-bold px-5 py-2 rounded-lg text-black">Hover me</h3>
                 </div>
             {/* </div> */}

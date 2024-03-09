@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     
-      <div className="mt-14 h-full flex flex-col lg:flex-row px-4 md:px-12 lg:px-20 xl:px-48 sm:px-8  ">
+      <div className="mt-14 mb-10 md:mb-0 h-full flex flex-col lg:flex-row px-4 md:px-12 lg:px-20 xl:px-48 sm:px-8 ">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
           <ThreeDCardDemo />
@@ -20,15 +20,15 @@ export default function HomePage() {
           {/* DESC */}
           <TextGenerateEffectDemo />
           {/* BUTTONS */}
-          <div className="w-full flex gap-4">
-            <Button className="rounded-lg">
-              <Link href="/project">
+          <div className="w-full flex gap-4 ">
+            <Button className="rounded-lg ">
+              <Link href="/projek">
                 View My Work
               </Link>
               
             </Button>
 
-            <Button variant="outline" className="rounded-lg">
+            <Button variant="outline" className="rounded-lg ">
               <Link href="/contact">
                 Contact me
               </Link>

@@ -25,13 +25,24 @@ export function Kontak() {
             </svg>
           </div>
 
-          <h1 className="font-bold mx-auto text-3xl text-white mb-4 relative z-[5]">
+          <h1 className="font-bold mx-auto text-3xl text-white mb-4 relative z-20">
           farhanramadhands@gmail.com
           </h1>
 
-          <h1 className="font-bold mx-auto text-3xl text-white mb-4 relative z-[5]">
+          <h1 className="font-bold mx-auto text-3xl text-white mb-4 relative z-20">
           087885177321
           </h1>
+
+          <h1 className="font-bold mx-auto text-3xl text-white mb-4 relative z-20">
+          IG = @farhanrdc
+          </h1>
+
+          <h1 className="font-bold mx-auto text-lg text-white mb-4 relative z-20">
+          https://www.linkedin.com/in/farhan-ramadhan-6318412b3
+          </h1>
+          
+
+          
 
           {/* Meaty part - Meteor effect */}
           <Meteors number={20} />
