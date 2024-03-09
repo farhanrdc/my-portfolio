@@ -25,7 +25,7 @@ export function AnimeFace() {
           </div>
 
           <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-          Created an "anime face" program.
+          Created an anime face program.
           </h1>
 
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
