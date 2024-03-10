@@ -4,6 +4,8 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./navbar";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import Footer from "./footer";
+import BackToTopButton from "./back-to-top";
 
 
 const TransitionProvider = ({ children }:any) => {
@@ -43,8 +45,10 @@ const TransitionProvider = ({ children }:any) => {
 
         <div className="h-[calc(100vh - 6rem)]">
             {children}
+            <BackToTopButton />
         </div>
         
+        <Footer />
       </div>
     </AnimatePresence>
   );

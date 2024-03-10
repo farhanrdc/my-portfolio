@@ -37,7 +37,7 @@ export function Kontak() {
           IG = @farhanrdc
           </h1>
 
-          <h1 className="ml-11 font-bold mx-auto text-lg md:text-3xl text-white mb-4 relative z-20">
+          <h1 className="ml-8 font-bold mx-auto text-lg md:text-3xl text-white mb-4 relative z-20">
           https://www.linkedin.com/in/farhan-ramadhan-6318412b3
           </h1>
           
