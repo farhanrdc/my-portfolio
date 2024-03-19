@@ -4,7 +4,7 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import { AnimateVoice, AnimeFace, Lms, MosqueWeb, NextAuth, PortfolioSaya, Taskind, Ytweb } from "./_components/experience";
-import { Judul, Parag1, Parag2, Parag3 } from "./_components/biografi";
+import { Judul, Parag} from "./_components/biografi";
 
 
 const AboutPage = () => {
@@ -20,12 +20,7 @@ const AboutPage = () => {
     
   return (
     
-    <motion.div
-    className="h-full"
-    initial={{ y: "-200vh" }}
-    animate={{ y: "0%" }}
-    transition={{ duration: 1 }}
-  >
+    <div className="h-full">
     {/* CONTAINER */}
     <div className="md:-mt-9 h-full overflow-scroll lg:flex" ref={containerRef}>
       {/* TEXT CONTAINER */}
@@ -33,11 +28,7 @@ const AboutPage = () => {
 
         {/* BIOGRAPHY CONTAINER */}
         <div ref={biografiRef} className="md:flex  gap-12 justify-center">
-          <motion.div
-              initial={{ x: "-300px" }}
-              animate={isBiografiRefInView ? { x: 0 } : {}}
-              className="md:flex  gap-12 justify-center md:pr-20"
-          >
+          
           
             {/* BIOGRAPHY IMAGE */}
             <Image
@@ -52,13 +43,12 @@ const AboutPage = () => {
               <Judul />
 
               {/* BIOGRAPHY DESC */}
-              <Parag1 />
-              <Parag2 />
-              <Parag3 />
+              <Parag />
+              
               
             </div>
           
-          </motion.div>
+          {/* </motion.div> */}
         </div>
 
         {/* SKILLS CONTAINER */}
@@ -190,7 +180,7 @@ const AboutPage = () => {
       {/* SVG CONTAINER */}
       
     </div>
-  </motion.div>
+  </div>
   )
 }
 

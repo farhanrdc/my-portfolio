@@ -10,8 +10,8 @@ import { ModeToggle } from "./mode-toogle";
 
 const links = [
   { url: "/", title: "Home" },
-  { url: "/saya", title: "About" },
-  { url: "/projek", title: "My Work" },
+  { url: "/about", title: "About" },
+  { url: "/my-work", title: "My Work" },
   { url: "/contact", title: "Contact" },
 ]
 
