@@ -71,7 +71,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex top-0 left-0 right-0  fixed z-10  h-20 w-full items-center justify-between px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 text-xl bg-[#FBFBFB] shadow-md shadow-black/5 dark:bg-indigo-950 dark:shadow-black/10 bg-opacity-70 dark:bg-opacity-70">
+    <div className="hidden md:flex top-0 left-0 right-0  fixed z-10  h-20 w-full items-center justify-between px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 text-xl bg-[#FBFBFB] shadow-md shadow-black/5 dark:bg-indigo-950 dark:shadow-black/10 bg-opacity-70 dark:bg-opacity-70">
       {/* LINKS */}
       <div className="flex gap-4 w-1/3">
         {links.map((link) => (

@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Footer from "./footer";
 import BackToTopButton from "./back-to-top";
+import { MobileHeader } from "./mobile-header";
+import { Sidebar } from "./sidebar";
 
 
 const TransitionProvider = ({ children }:any) => {
@@ -44,6 +46,7 @@ const TransitionProvider = ({ children }:any) => {
         </div>
 
         <div className="h-[calc(100vh - 6rem)]">
+            <MobileHeader />
             {children}
             <BackToTopButton />
         </div>
