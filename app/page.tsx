@@ -22,7 +22,7 @@ export default function HomePage() {
           {/* BUTTONS */}
           <div className="w-full flex gap-4 ">
             <Button className="rounded-lg ">
-              <Link href="/projek">
+              <Link href="/my-work">
                 View My Work
               </Link>
               
