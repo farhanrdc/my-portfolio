@@ -17,12 +17,18 @@ During high school,
 SMAN 5 Depok is named SAKHUSA in 2018.
 • Responsible for funds for the nature meditation event at SMAN 5 Depok 
 in 2017.
-• Responsible for equipment for the Japanese festival held by the Japanese Club organization from SMAN 5 Depok in 2018.`;
+• Responsible for equipment for the Japanese festival held by the Japanese Club organization from SMAN 5 Depok in 2018.
 
-
+Currently, I work as a NetSuite technical consultant at PT Hand Solution Indonesia.
+`;
 
 export function Judul() {
-    return <TextGenerateEffect words={judul} className="mt-8 font-bold text-5xl leading-relaxed"/>;
+  return (
+    <TextGenerateEffect
+      words={judul}
+      className="mt-8 font-bold text-5xl leading-relaxed"
+    />
+  );
 }
 
 // export function Parag1() {
@@ -34,6 +40,10 @@ export function Judul() {
 // }
 
 export function Parag() {
-    return <TextGenerateEffect words={parag} className="mt-2 font-normal text-lg text-justify whitespace-pre-wrap"/>;
+  return (
+    <TextGenerateEffect
+      words={parag}
+      className="mt-2 font-normal text-lg text-justify whitespace-pre-wrap"
+    />
+  );
 }
-
